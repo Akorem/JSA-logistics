@@ -1,0 +1,60 @@
+.spot ul li img{
+    width: 200px;
+}
+.spot ul{
+    /* display: flex; */
+    list-style: none;
+    margin-top: 6rem;
+}
+.spot ul li{
+    /* padding-left: rem; */
+    padding-bottom: 1rem;
+    margin-left: -1rem;
+}
+.spot h5{
+    text-align: center;
+    padding-top: 5rem;
+    margin-left: -5rem;
+}
+
+@media only screen and (min-width: 320px) {
+    .spot h5{
+        margin-left: -1rem;
+    }
+    .spot ul li{
+        padding-bottom: 1rem;
+        margin-left: 2rem;
+    }
+}
+@media only screen and (min-width: 375px) {
+    .spot ul li{
+        margin-left: 3rem;
+    }
+}
+@media only screen and (min-width: 425px) {
+    .spot ul li{
+        margin-left: 5rem;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .spot ul li{
+        margin-left: 9rem;
+    }
+    .spot ul li img{
+        width: 400px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .spot ul li{
+        margin-left: 18rem;
+    }
+    .spot h5{
+        margin-left: -1rem;
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .spot ul li{
+        margin-left: 30rem;
+    }
+}

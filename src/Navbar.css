@@ -1,0 +1,21 @@
+nav{
+    background-color: white;
+}
+#navi li{
+    /* padding-left: 6rem; */
+    text-align: center;
+}
+#navii{
+    text-align: center;
+}
+
+@media only screen and (min-width: 1024px) {
+    #navii{
+        margin-left: 20rem;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    #navii{
+        margin-left: 46rem;
+    }
+}
